@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800' viewBox='0 0 1200 800'>
+<defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop stop-color='#2f6bff'/><stop offset='1' stop-color='#1ec8a5'/></linearGradient></defs>
+<rect width='1200' height='800' fill='url(#g)'/>
+<circle cx='220' cy='220' r='150' fill='rgba(255,255,255,.18)'/>
+<circle cx='980' cy='620' r='200' fill='rgba(255,255,255,.14)'/>
+<rect x='290' y='170' rx='26' ry='26' width='620' height='460' fill='rgba(255,255,255,.2)'/>
+<text x='600' y='430' text-anchor='middle' font-size='56' font-family='Inter, Arial' fill='white'>Business Name</text>
+</svg>
