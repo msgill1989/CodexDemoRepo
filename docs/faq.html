@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ | Business Name Calgary</title>
+  <meta name="description" content="Frequently asked questions about Business Name services in Calgary, Alberta." />
+  <meta property="og:title" content="FAQ | Business Name" />
+  <meta property="og:description" content="Answers about service areas, pricing, and booking." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html">Business <span>Name</span></a><button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button><nav class="main-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html" aria-current="page">FAQ</a></li></ul></nav></div></header>
+<main>
+  <section class="page-hero"><div class="container"><h1 class="section-title">Frequently Asked Questions</h1><p class="section-subtitle">Everything you need to know before booking with Business Name.</p></div></section>
+  <section class="section reveal"><div class="container" style="display:grid; gap:0.8rem;">
+    <article class="faq-item open"><button class="faq-question" aria-expanded="true">Do you serve all Calgary neighborhoods?</button><div class="faq-answer">Yes, we provide service across Calgary and surrounding communities depending on request type.</div></article>
+    <article class="faq-item"><button class="faq-question" aria-expanded="false">How soon can I book an appointment?</button><div class="faq-answer">Most bookings are available within 24–48 hours. Same-day options are offered when possible.</div></article>
+    <article class="faq-item"><button class="faq-question" aria-expanded="false">Do you provide quotes before work starts?</button><div class="faq-answer">Absolutely. We provide transparent estimates so you can decide with confidence.</div></article>
+    <article class="faq-item"><button class="faq-question" aria-expanded="false">Are your services customizable?</button><div class="faq-answer">Yes, we can tailor services and products based on your goals, timeline, and budget.</div></article>
+  </div></section>
+</main>
+<footer class="site-footer"><div class="container"><p>© <span id="year"></span> Business Name</p></div></footer>
+<script src="script.js"></script><script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

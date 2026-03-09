@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Business Name Calgary</title>
+  <meta name="description" content="Learn about Business Name, our mission, and our commitment to quality service in Calgary." />
+  <meta property="og:title" content="About Business Name" />
+  <meta property="og:description" content="Meet the team behind Business Name in Calgary." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html">Business <span>Name</span></a><button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button><nav class="main-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html" aria-current="page">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></nav></div></header>
+<main>
+  <section class="page-hero"><div class="container"><h1 class="section-title">About Business Name</h1><p class="section-subtitle">We are a local Calgary team focused on exceptional service and long-term customer trust.</p></div></section>
+  <section class="section reveal"><div class="container card-grid two">
+    <article class="card"><h2>Our Mission</h2><p>To provide dependable, transparent, and premium service experiences that help Calgary residents and businesses thrive.</p></article>
+    <article class="card"><h2>Our Values</h2><p>Integrity, responsiveness, craftsmanship, and continuous improvement are at the heart of every project.</p></article>
+  </div></section>
+  <section class="section reveal"><div class="container"><h2 class="section-title">Our Story</h2><p class="section-subtitle">Business Name started with a simple belief: local service can feel modern, efficient, and genuinely personal. Today, we continue to invest in our team, tools, and customer experience so every interaction is smooth and stress-free.</p></div></section>
+</main>
+<footer class="site-footer"><div class="container"><p>© <span id="year"></span> Business Name</p></div></footer>
+<script src="script.js"></script><script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
