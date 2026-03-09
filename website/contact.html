@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Business Name Calgary</title>
+  <meta name="description" content="Contact Business Name in Calgary for bookings, quotes, or support." />
+  <meta property="og:title" content="Contact Business Name" />
+  <meta property="og:description" content="Reach Business Name for your next project in Calgary." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html">Business <span>Name</span></a><button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button><nav class="main-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></nav></div></header>
+<main>
+  <section class="page-hero"><div class="container"><h1 class="section-title">Let’s Talk</h1><p class="section-subtitle">Send us a message and our team will get back to you promptly.</p></div></section>
+  <section class="section reveal"><div class="container">
+    <div class="contact-cards" style="margin-bottom:1.2rem;">
+      <article class="card"><h3>Email</h3><p>hello@businessname.ca</p></article>
+      <article class="card"><h3>Phone</h3><p>(403) 555-0101</p></article>
+    </div>
+    <form class="card" aria-label="Contact form">
+      <div class="form-grid two">
+        <div><label for="name">Full Name</label><input id="name" name="name" type="text" required /></div>
+        <div><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
+      </div>
+      <div class="form-grid two">
+        <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" /></div>
+        <div><label for="service">Service Interest</label><select id="service" name="service"><option>Starter Package</option><option>Professional Package</option><option>Enterprise Package</option></select></div>
+      </div>
+      <div><label for="message">Message</label><textarea id="message" name="message" rows="6" required></textarea></div>
+      <div style="margin-top:1rem;"><button class="btn btn-primary" type="submit">Send Message</button></div>
+    </form>
+  </div></section>
+</main>
+<footer class="site-footer"><div class="container"><p>© <span id="year"></span> Business Name</p></div></footer>
+<script src="script.js"></script><script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
